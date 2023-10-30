@@ -1,0 +1,22 @@
+{
+    "fruits_kvs": {
+        "container": "fruits-kvs-beta",
+        "read_retries": 3,
+        "read_timeout": 100,
+        "write_retries": 3,
+        "write_timeout": 100
+    },
+    "reputation_api": {
+        "http_client_timeout": 10,
+        "seller_reputation_url": "http://internal-api.melisource.com/users/{seller_id}/seller_reputation?caller.scopes={caller_scopes}",
+        "seller_reputation_caller_scopes_query:": "admin",
+        "seller_reputation_excluded_status_codes": [
+            404
+        ]
+    },
+    "proposal_storage_os": {
+        "os_name": "proposal-csv-files",
+        "timeout": 5,
+        "retries": 1
+    }
+}

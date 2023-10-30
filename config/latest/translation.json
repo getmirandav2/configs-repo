@@ -1,0 +1,7 @@
+{
+    "fallback": "es_MX",
+    "supported_locales": [
+        "en_US"
+    ],
+    "dirname": "translations"
+}

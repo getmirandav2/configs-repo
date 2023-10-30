@@ -1,0 +1,5 @@
+{
+    "level": "debug",
+    "with_caller": true,
+    "with_stacktrace_on_error": false
+}
